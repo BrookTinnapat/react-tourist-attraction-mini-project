@@ -9,7 +9,7 @@ function PlaceHighlight() {
   const getPlace = async () => {
     try {
       const result = await axios.get(
-        `http://localhost:4001/trips?keywords=${searchText}`
+        `https://react-tourist-attraction-mini-project-server-ji9kuyg9g.vercel.app/trips?keywords=${searchText}`
       );
       setPlaces(result.data.data);
       console.log(result.data.data);
