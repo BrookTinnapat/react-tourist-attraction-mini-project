@@ -1,6 +1,5 @@
 import { IoIosCopy } from "react-icons/io";
 import React, { useState } from "react";
-import "reactjs-popup/dist/index.css";
 
 function PlaceCard(props) {
   const [showPopup, setShowPopup] = useState(false);
