@@ -8,7 +8,7 @@ const port = 4001;
 
 app.use(
   cors({
-    origin: "https://react-tourist-attraction-mini-project-server.vercel.app",
+    origin: "https://react-tourist-attraction-mini-project-ten.vercel.app/",
   })
 );
 app.use(bodyParser.json());
