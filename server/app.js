@@ -6,11 +6,7 @@ import trips from "./db.js";
 const app = express();
 const port = 4001;
 
-app.use(
-  cors({
-    origin: "https://react-tourist-attraction-mini-project-ten.vercel.app/",
-  })
-);
+app.use(cors());
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
