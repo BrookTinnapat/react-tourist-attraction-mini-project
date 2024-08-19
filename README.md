@@ -26,5 +26,5 @@ Open http://localhost:5173 in your browser to view the project.
 
 ## Deployment
 
-Check out this link [Here.](https://hilink-travel-app-pi.vercel.app/)
+Check out this link [Here.](https://react-tourist-attraction-mini-project-ten.vercel.app/)
 
