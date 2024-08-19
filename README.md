@@ -9,9 +9,6 @@ Before you begin, ensure you have the following tools installed on your machine:
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
 
-Navigate into the project directory:
-```cd travel_app```
-
 Installation
 Install the project dependencies using npm:
 ```npm install```
